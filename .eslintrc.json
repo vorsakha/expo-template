@@ -1,7 +1,6 @@
 {
   "env": {
-    "es2021": true,
-    "node": true
+    "es2021": true
   },
   "extends": [
     "plugin:react/recommended",
@@ -30,6 +29,7 @@
         "extensions": [".ts", ".tsx"]
       }
     ],
+    "react/style-prop-object": "off",
     "react/jsx-props-no-spreading": "off",
     "import/prefer-default-export": "off",
     "@typescript-eslint/no-namespace": "off",
