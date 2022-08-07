@@ -1,5 +1,3 @@
 export default {
-  title: '',
-  description: '',
-  extra: '',
+  primary: 'Nunito',
 };

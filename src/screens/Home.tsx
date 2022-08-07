@@ -18,7 +18,7 @@ const StyledContainer = styled(View)`
 `;
 
 const StyledText = styled(Text)`
-  font-weight: bold;
+  font-family: ${({ theme }) => theme.fonts.primary};
 `;
 
 export default Home;
