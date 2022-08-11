@@ -15,6 +15,7 @@ const StyledContainer = styled(View)`
   background-color: '#fff';
   align-items: center;
   justify-content: center;
+  padding-horizontal: 24px;
 `;
 
 const StyledText = styled(Text)`
